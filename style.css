@@ -1,0 +1,85 @@
+
+#navbarTogglerDemo01{
+    padding-left:80px;
+}
+
+.d-flex{
+    padding-right: 80px;
+}
+
+#carouselExampleCaptions img{
+    width: 99%;
+    height: 91vh;
+}
+
+.btn{
+    
+    background-color: #1e90ff;
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+
+.btn:hover , .btn:focus , .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+.btn:hover{
+    background: blueviolet;
+}
+
+/*  */
+
+#img-section .card-item{
+    width: 300px;
+    height: 200px;
+}
+
+/* Card tittle section */
+.card-item{
+    width: 300px;
+    height: 350px;
+    /* background: gray; */
+
+    box-shadow: 0 0 5px rgba(125, 125, 125, 1);
+    border-radius: 5px;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.card-item:hover{
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+.card-section{
+    width:95%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.item-detail {
+    /* position: relative;
+    left: 10px; */
+    padding-left: 10px;
+    
+}
+
+
+
+
+
